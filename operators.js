@@ -1,10 +1,10 @@
-//Ex 1 - 15 percent off total of two items//
+/*Ex 1 - 15 percent off total of two items
 
-var item1 = 3
-var item2 = 10
-var total = item1 + item2
-var discountPrice = total - (total*15/100)
-console.log(discountPrice)
+var item1 = 3;
+var item2 = 10;
+var total = item1 + item2;
+var discountPrice = total - (total*15/100);
+console.log(discountPrice);
 
 //Ex 2 - Conditional Operators - 3 cat show breeds per group - number of breeds needed to complete group - modulus//
 
@@ -29,7 +29,7 @@ console.log(breedsNeeded == 0 ? 0:(3-breedsNeeded));
 */
 
 // Ex 3 - Boolean, Equality operators - Send alert when cat breed is entered//
-
+/*
 function validateForm() {
     let x = document.forms["catTypes"]["breed"].value;
     if (x === "Chartreux") {
@@ -59,6 +59,70 @@ function validateForm() {
     }
 }
 
+*/
 
+//Ex 4 - ternary operators
 
-//Ex 4 - String operators - 
+const val = "Cate";
+const rainPercentage = 0.2;
+const temperatureInC = 26;
+
+let message = `Hello, ${val}, with a rain chance of ${rainPercentage * 100}% and a temperature of ${temperatureInC}C we recommend that you ` + (rainPercentage > 0.3 ? "take an umbrella" : "enjoy this rain-free day") +
+`${temperatureInC >= 26 ? ' and watch out for heatstroke.' : ' and bask in this fine weather.'}`;
+
+console.log(message);
+
+document.getElementById("messagePara").innerText = message;
+
+//ex 5 - conditional//
+
+//let timeVal = new Date();
+let timeVal = getHours();
+let hours = timeVal.getHours();
+
+if(hours <= 10) {
+    alert("good morning")
+}
+
+else if(hours >= 12 && hours <= 18) {
+    alert("happy afternoon")
+}
+
+else {hours >=19
+    alert("good evening")
+}
+
+//Ex 6 - Sequence and comments
+
+const lineOne = "Joy to the world";
+const lineTwo = "All the boys and girls";
+//const lineThree = "Joy to the fishes in the deep blue sea";
+const lineFour = "Joy to you and me";
+
+// const chorus = `${lineOne}\n${lineTwo}\n${lineThree}\n${lineFour}`;
+const chorus = `${lineOne}\n${lineTwo}\n${lineFour}`;
+
+chorus;
+
+//ex 7 - 3 variable demographics - 1st kids, 2nd teens, 3rd adults 1 - print 
+
+let demo = age();
+
+if(age <= 12) {
+    message("g/'day kiddo, here/'s your card")
+}
+
+else if(age >= 12 && age <= 17) {
+    message("something something tic toc")
+}
+
+else {age >=19
+    message("good to go, buddy")
+}
+
+let demoMessage = `Hello, ${nameVal}, with a rain chance of ${rainPercentage * 100}% and a temperature of ${temperatureInC}C we recommend that you ` + (rainPercentage > 0.3 ? "take an umbrella" : "enjoy this rain-free day") +
+`${temperatureInC >= 26 ? ' and watch out for heatstroke.' : ' and bask in this fine weather.'}`;
+
+console.log(message);
+
+document.getElementById("messagePara").innerText = message;
