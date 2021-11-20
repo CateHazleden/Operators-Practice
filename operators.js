@@ -6,12 +6,15 @@ var total = item1 + item2;
 var discountPrice = total - (total*15/100);
 console.log(discountPrice);
 
-//Ex 2 - Conditional Operators - 3 cat show breeds per group - number of breeds needed to complete group - modulus//
+*/
+
+//Ex 2 - Conditional Operators - 3 cat show breeds per group - number of breeds needed to complete group - modulus
 
 /*
 var breedCount = document.getElementsByTagName("LI");
 
-document.write(breedCount); */
+document.write(breedCount); 
+*/
 
 /* TRY THIS >>> function breedFunction() { 
     let breedCount = number(document.getElementsByTagName("LI");
@@ -58,7 +61,6 @@ function validateForm() {
         return true
     }
 }
-
 */
 
 //Ex 4 - ternary operators
@@ -112,15 +114,15 @@ if(age <= 12) {
     message("g/'day kiddo, here/'s your card")
 }
 
-else if(age >= 12 && age <= 17) {
+else if(age >= 13 && age <= 17) {
     message("something something tic toc")
 }
 
-else {age >=19
-    message("good to go, buddy")
+else {age >=18
+    message("ey, good to go, buddy")
 }
 
-let demoMessage = `Hello, ${nameVal}, with a rain chance of ${rainPercentage * 100}% and a temperature of ${temperatureInC}C we recommend that you ` + (rainPercentage > 0.3 ? "take an umbrella" : "enjoy this rain-free day") +
+let messageEx7 = `Hello, ${nameVal}, with a rain chance of ${rainPercentage * 100}% and a temperature of ${temperatureInC}C we recommend that you ` + (rainPercentage > 0.3 ? "take an umbrella" : "enjoy this rain-free day") +
 `${temperatureInC >= 26 ? ' and watch out for heatstroke.' : ' and bask in this fine weather.'}`;
 
 console.log(message);
