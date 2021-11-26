@@ -8,7 +8,7 @@
 </head>
 <html>
 <div class="ex 2">
-    <button onclick="breedFunction()">No. Breeds Needed</button>
+    
 
     <div class="groups">
         <ul id="breeds">
@@ -24,7 +24,7 @@
 <br><br><br>
 
 <div class="ex 3">
-    <form name="catTypes" onsubmit="return validateForm()" method="post">
+    <form name="catTypes" onsubmit="return" validateForm() method="post">
         <label for="cname">Cat's name:</label><br>
         <input type="text" id="cname" name="cname" placeholder="Pickle"><br>
         <label for="breed">Breed:</label><br>
@@ -34,17 +34,29 @@
       </form> 
 </div>
 
+<br>
+<br>
+
 <div class="ex 4">
 
-<p id="messagePara"></p>
-
-
+<p id="messageEx7"></p>
 
 </div>
 
+
+
+
 <div class="ex 7">
 
-<p id="memberMessage"></p>
+    <label>Member Demo Information</label>
+    <br>
+    <input type="number" id="demoVal">
+
+    <button onclick="checkMessage()">Enter Age</button>
+    <br>
+    
+
+    <p id="memberMessage"></p>
 
 </div>
 <script src="operators.js"></script>

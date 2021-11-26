@@ -13,7 +13,7 @@ console.log(discountPrice);
 /*
 var breedCount = document.getElementsByTagName("LI");
 
-document.write(breedCount); 
+console.log("breedCount"); 
 */
 
 /* TRY THIS >>> function breedFunction() { 
@@ -65,7 +65,7 @@ function validateForm() {
 
 //Ex 4 - ternary operators
 
-const val = "Cate";
+/*const val = "Cate";
 const rainPercentage = 0.2;
 const temperatureInC = 26;
 
@@ -93,9 +93,10 @@ else if(hours >= 12 && hours <= 18) {
 else {hours >=19
     alert("good evening")
 }
+*/
 
 //Ex 6 - Sequence and comments
-
+/*
 const lineOne = "Joy to the world";
 const lineTwo = "All the boys and girls";
 //const lineThree = "Joy to the fishes in the deep blue sea";
@@ -106,25 +107,39 @@ const chorus = `${lineOne}\n${lineTwo}\n${lineFour}`;
 
 chorus;
 
+*/
+
 //ex 7 - 3 variable demographics - 1st kids, 2nd teens, 3rd adults 1 - print 
 
-let demo = age();
+function checkMessage() {
 
-if(age <= 12) {
-    message("g/'day kiddo, here/'s your card")
+    let age;
+    let returnMessage;
+    age = document.getElementById("demoVal").value;
+
+    if(age <= "12") 
+    {
+        returnMessage = "g/'day kiddo, here/'s your card";
+    }
+
+    else if(age >= "13" && age <= "17") 
+    {
+        returnMessage = "something something tic toc";
+    }
+
+    else(age >="18")
+    {
+        returnMessage = "ey, good to go, buddy";
+    }
+
+    document.getElementById("memberMessage").innerText = returnMessage;
+
 }
 
-else if(age >= 13 && age <= 17) {
-    message("something something tic toc")
-}
 
-else {age >=18
-    message("ey, good to go, buddy")
-}
-
-let messageEx7 = `Hello, ${nameVal}, with a rain chance of ${rainPercentage * 100}% and a temperature of ${temperatureInC}C we recommend that you ` + (rainPercentage > 0.3 ? "take an umbrella" : "enjoy this rain-free day") +
+/*let messageEx7 = `Hello, ${nameVal}, with a rain chance of ${rainPercentage * 100}% and a temperature of ${temperatureInC}C we recommend that you ` + (rainPercentage > 0.3 ? "take an umbrella" : "enjoy this rain-free day") +
 `${temperatureInC >= 26 ? ' and watch out for heatstroke.' : ' and bask in this fine weather.'}`;
 
-console.log(message);
+console.log(messageEx7);
+*/
 
-document.getElementById("messagePara").innerText = message;
