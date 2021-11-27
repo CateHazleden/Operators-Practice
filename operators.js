@@ -117,17 +117,17 @@ function checkMessage() {
     let returnMessage;
     age = document.getElementById("demoVal").value;
 
-    if(age <= "12") 
+    if(age <= 12) 
     {
-        returnMessage = "g/'day kiddo, here/'s your card";
+        returnMessage = "g'day kiddo, here's your card";
     }
 
-    else if(age >= "13" && age <= "17") 
+    if(age >= 13 && age <= 17) 
     {
         returnMessage = "something something tic toc";
     }
 
-    else(age >="18")
+    if(age >=18)
     {
         returnMessage = "ey, good to go, buddy";
     }
