@@ -24,14 +24,21 @@
 <br><br><br>
 
 <div class="ex 3">
-    <form name="catTypes" onsubmit="return" validateForm() method="post">
-        <label for="cname">Cat's name:</label><br>
-        <input type="text" id="cname" name="cname" placeholder="Pickle"><br>
-        <label for="breed">Breed:</label><br>
-        <input type="text" id="breed" name="breed" placeholder="Domestic Shorthair"><br><br>
+    
+    <form name="catTypes" validateForm() method="post">
+        <label for="cname">Cat's name:</label>
+        <br>
+        <input type="text" id="cname" name="catName" placeholder="Pickle">
+        <br>
+        <label for="breed">Breed:</label>
+        <br>
+        <input type="text" id="breed" name="breed" placeholder="Domestic Shorthair">
+        <br><br>
         <input type="submit" value="Submit">
         <input type="reset">
-      </form> 
+    </form>
+    <br>
+    <p id="paraMessage"></p> 
 </div>
 
 <br>

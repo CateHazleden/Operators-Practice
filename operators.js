@@ -32,36 +32,37 @@ console.log(breedsNeeded == 0 ? 0:(3-breedsNeeded));
 */
 
 // Ex 3 - Boolean, Equality operators - Send alert when cat breed is entered//
-/*
+
 function validateForm() {
     let x = document.forms["catTypes"]["breed"].value;
     if (x === "Chartreux") {
-        alert("Your cat is gray and they are awesome!");
-        return true;
+        defineMessage("Your cat is gray and they are awesome!");
+        ;
     }
     else if (x === "Himalayan") {
-        alert("CONGRATS Your cat has no nose and they are excellent!");
-        return true;
+        defineMessage("CONGRATS Your cat has no nose and they are excellent!");
+        ;
     }
     else if (x === "Devon Rex") {
-        alert("Oh.My.Gosh! Your cat has the tightest curls and they are wonderful!");
-        return true;
+        defineMessage("Oh.My.Gosh! Your cat has the tightest curls and they are wonderful!");
+        ;
     }
     else if (x === "Abyssinian") {
-        alert("Is your cat sorrel, blue, chocolate, lilac, fawn, or silver? Whatever colour, they are brilliant!");
-        return true;
+        defineMessage("Is your cat sorrel, blue, chocolate, lilac, fawn, or silver? Whatever colour, they are brilliant!");
+        ;
     }
     else if (x === "Bombay") {
-        alert("Wow! Your cat is so shiny, black and gorgeous!");
-        return true;
+        defineMessage("Wow! Your cat is so shiny, black and gorgeous!");
+        ;
     }
     else (x !== "Chartreux", "Himalayan", "Devon Rex", "Abyssinian", "Bombay") ;
     {
-        alert("*sadface* I have not met your cat! But I bet they are adorable!"); 
-        return true
+        defineMessage("*sadface* I have not met your cat! But I bet they are adorable!"); 
     }
+document.getElementById("paraMessage").innerText = defineMessage
+
 }
-*/
+
 
 //Ex 4 - ternary operators
 
@@ -111,7 +112,7 @@ chorus;
 
 //ex 7 - 3 variable demographics - 1st kids, 2nd teens, 3rd adults 1 - print 
 
-function checkMessage() {
+/*function checkMessage() {
 
     let age;
     let returnMessage;
@@ -142,4 +143,3 @@ function checkMessage() {
 
 console.log(messageEx7);
 */
-
