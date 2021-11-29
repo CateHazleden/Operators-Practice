@@ -5,12 +5,15 @@
 
 <link rel="stylesheet" href="operators.css">
 
+
 </head>
 <html>
 <div class="ex 2">
     
 
-    <div class="groups">
+    <label>Exercise 1 Modulus Count</label>
+    
+
         <ul id="breeds">
             <li>Abyssinian</li>
             <li>Bombay</li>
@@ -21,19 +24,19 @@
     </div>
 </div>
 
-<br><br><br>
+<br><br><br> 
 
-<div class="ex 3">
-    
+<div class="ex_3">
+
     <form name="catTypes" validateForm() method="post">
-        <label for="cname">Cat's name:</label>
+        <label for="cname">Cat's name</label>
         <br>
         <input type="text" id="cname" name="catName" placeholder="Pickle">
         <br>
-        <label for="breed">Breed:</label>
+        <label for="breed">Breed</label>
         <br>
         <input type="text" id="breed" name="breed" placeholder="Domestic Shorthair">
-        <br><br>
+        <br>
         <input type="submit" value="Submit">
         <input type="reset">
     </form>
@@ -44,27 +47,108 @@
 <br>
 <br>
 
-<div class="ex 4">
+<div class="ex_4">
 
-<p id="messageEx7"></p>
+    <label>Exercise 4 Ternary Operators</label>
 
+    <div class="border">
+        <p id="messageEx4"></p>
+    </div>
 </div>
 
+<br>
+<br>
 
+<div class="SESSION_13">
 
-
-<div class="ex 7">
-
-    <label>Member Demo Information</label>
+    <label>Session 13 Member Demo Information</label>
     <br>
+    
     <input type="number" id="demoVal">
 
-    <button onclick="checkMessage()">Enter Age</button>
+    <button onclick="checkMessage()">Submit Age</button>
     <br>
     
 
     <p id="memberMessage"></p>
 
 </div>
+
+<br>
+<br>
+
+<div class="SESSION_14a">
+
+
+    <label>Session 14a Switch Case Cat Greetings</label>
+    <br>
+
+    <input type="text" id="sessionFourteena" placeholder="Breed Type Here">
+    <br>
+
+    <button onclick="catGreetings()">Submit</button>
+    <br>
+
+
+    <p id="messagePara"></p>
+</div>
+
+<br>
+<br>
+
+<div class="SESSION_14b">
+
+    <label>Session 14b Switch Case Demographic Message</label>
+    <br>
+
+    <input type="text" id="ageVal" placeholder="Enter Age"> 
+
+    <button onclick="checkMessage()">Submit Age</button> 
+    <input type="reset">
+    <br>
+    <div class="border">
+        <p id="demoPara"></p>
+    </div>
+
+</div>
+<br>
+<br>
+<div class="Session_14c">
+    <label>Session 14c Loop Exercise</label>
+    <br>
+    <div class="border">
+        <p>Look in the console log ;)</p>
+    </div>
+</div>
+
+<br> 
+<br>
+
+<div class="Session_14d">
+
+    <label>Session 14d Functions</label>
+    <br>
+
+    <label>Number 1</label>
+    <input type="number" id="num1">
+
+    <br>
+
+    <label>Number 2</label>
+    <input type="number" id="num2">
+
+    <br>
+
+    <button id=btn onclick="addVal()">Add Numbers</button>
+
+    <br>
+
+    <div class="border">
+        <p id="numMessage"></p>
+        <p id="secretMess"></p>
+    </div>
+
+</div>
+
 <script src="operators.js"></script>
-</html>                       
+</html>

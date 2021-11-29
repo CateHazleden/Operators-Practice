@@ -1,5 +1,66 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #e3bcc3;
+  color:#2e465e;
+  margin: 200px 80px 100px 80px;
+}
+
+.ex_3, .ex_4, .SESSION_13, .SESSION_14a, .SESSION_14b, .Session_14c, .Session_14d {
+  line-height: 1.8;
+}
+
+label {
+  color: #923a21;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px; 
+}
+
+label::after {content: ":";}
+
+input, button {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #e45356;
+  border-radius: 9px;
+  border: 2px solid #923a21;
+  padding: 5px;
+  background: #e4c5a7;
+  margin-left: 9px;
+}
+
+button {
+  margin-top: 7px;
+}
+
+::placeholder {
+  color: #859ca2be;
+  opacity: 1;
+  font-weight: lighter; 
+}
+
+.border {
+  border-radius: 9px;
+  border: 2px solid #923a21;
+  padding: 5px;
+  background: #e4c5a7;
+  line-height: 1;
+  margin: 9px 0 0 9px;
+}
+
+/*Exercise_1*/
 ul#breeds {
     list-style-type: none; 
     padding: 0;
     margin: 0;
   }
+
+#demoPara, #messagePara, #memberMessage {
+  margin-left: 20px;
+} 
+
+/*Ex 4*/
+
+.ex_4 {
+  display: block;
+  width: 33%;
+}
