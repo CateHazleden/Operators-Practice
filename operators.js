@@ -284,6 +284,94 @@ document.getElementById("numMessage").addEventListener("mouseover", function(){
 }
 );
 
-//Session 15
+/*document.getElementById("numMessage" + "secretMess").addEventListener("mouseout", function(){
+    $(this).hide();
+})
+*/
+//SESSION 15
+
+//Session 15a Functions, Arguments, Parameters, Return
+
+function myFunction(a,b) {
+    return a + b;
+}
+
+document.getElementById("returner").innerHTML = myFunction(10,5);
 
 
+
+let hello = "Hi"
+let firstName = "PonyFace"
+
+function say(hello, firstName) {        
+    return `${hello}, ${firstName}!`
+  };
+
+ document.getElementById("returnGN").innerHTML = say(hello, firstName);
+
+
+
+
+//Session 16a Arrays
+
+
+const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+days.pop();
+// => "Sun"
+
+days;
+// => ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+
+//const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+days.shift();
+// => "Mon"
+
+days;
+// => [Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+
+//Session 16a Slices
+
+const primes = [2,3,5,7]
+
+
+/*const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+days.slice(2, 5);
+
+//SPLICE
+
+const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+days.splice(2);
+// => ["Wed", "Thu", "Fri", "Sat", "Sun"]
+*/
+const menu = ['Jalapeno Poppers', 'Cheeseburger', 'Fish and Chips', 'French Fries', 'Onion Rings'];
+
+menu.splice(1, 2, 'Veggie Burger', 'House Salad', 'Teriyaki Tofu');
+// => ["Cheeseburger", "Fish and Chips"]
+
+menu;
+// => ["Jalapeno Poppers", "Veggie Burger", "House Salad", "Teriyaki Tofu", "French Fries", "Onion Rings"]
+
+//Session 16b
+//Arrays
+
+const cars = ["Mini", "Fiat", "Morris", "Hunter", "VW", "Skode", "Daihatsu"]
+
+/*for (i=0; i< cars.length; i++){
+    //console.log(`My Favourite Car is ${cars[i]}`);
+    console.log(`My Favourite Car Number ${i} is ${cars[i]}`)
+}
+*/
+
+for (i=cars.length-1; i>=0; i--){
+    //console.log(`My Favourite Car is ${cars[i]}`);
+    console.log(`My Favourite Car Number ${i} is ${cars[i]}`)
+}
+
+for (i=0; i<cars.length; i++){
+    //console.log(`My Favourite Car is ${cars[i]}`);
+    console.log(`My Favourite Car Number ${i} is ${cars[i]}`)
+}

@@ -5,7 +5,7 @@ body {
   margin: 200px 80px 100px 80px;
 }
 
-.ex_3, .ex_4, .SESSION_13, .SESSION_14a, .SESSION_14b, .Session_14c, .Session_14d {
+.ex_3, .ex_4, .SESSION_13, .SESSION_14a, .SESSION_14b, .Session_14c, .Session_14d, .Session_15a {
   line-height: 1.8;
 }
 
@@ -45,7 +45,21 @@ button {
   background: #e4c5a7;
   line-height: 1;
   margin: 9px 0 0 9px;
+  width: 42%;
 }
+
+.answerBorder {
+  float: right;
+  color: #e45356;
+  font-weight: bold;
+  border-radius: 9px;
+  border: 2px dotted #923a21;
+  padding: 5px;
+  background: #e4c5a7;
+  line-height: 1;
+}
+
+
 
 /*Exercise_1*/
 ul#breeds {
@@ -57,6 +71,10 @@ ul#breeds {
 #demoPara, #messagePara, #memberMessage {
   margin-left: 20px;
 } 
+
+#functions_lab {
+  font-size: 75%;
+}
 
 /*Ex 4*/
 
