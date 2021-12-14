@@ -1,12 +1,29 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #e3bcc3;
+  background-color: #fff;
   color:#2e465e;
-  margin: 200px 80px 100px 80px;
+  
 }
 
-.ex_3, .ex_4, .SESSION_13, .SESSION_14a, .SESSION_14b, .Session_14c, .Session_14d, .Session_15a {
+.mainwrapper{
+
+  background-color: #e3bcc3;
+  margin: 50px 45% 100px 80px;
+  border-style: none;
+  border-radius: 25px;
+  padding-bottom: 15px;
+
+}
+
+.ex_2, .ex_3, .ex_4, .session_13, .session_14a, .session_14b, .session_14c, .session_14d, .session_15a, .session_15b, .session_16a, .session_16b, .session_17_part1, .session_17_part2,.session_18, .session_19 {
   line-height: 1.8;
+  padding: 25px;
+}
+
+h3 {
+  text-indent: 15px;
+  font-weight: lighter;
+
 }
 
 label {
@@ -20,7 +37,7 @@ label::after {content: ":";}
 
 input, button {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #e45356;
+  color: black;
   border-radius: 9px;
   border: 2px solid #923a21;
   padding: 5px;
@@ -30,6 +47,12 @@ input, button {
 
 button {
   margin-top: 7px;
+  color: #e45356;
+}
+
+.border #pop {
+  float: right;
+  margin-right: 10px;
 }
 
 ::placeholder {
@@ -39,27 +62,34 @@ button {
 }
 
 .border {
+  display: inline-block;
+  min-width: 90%;
   border-radius: 9px;
   border: 2px solid #923a21;
   padding: 5px;
   background: #e4c5a7;
-  line-height: 1;
+  line-height: 1.5;
   margin: 9px 0 0 9px;
-  width: 42%;
+  font-size: 0.8rem;
+  overflow-wrap:break-word;
 }
 
 .answerBorder {
   float: right;
   color: #e45356;
   font-weight: bold;
+  min-width: 45px;
   border-radius: 9px;
-  border: 2px dotted #923a21;
+  border: 2.5px dotted #923a21;
   padding: 5px;
-  background: #e4c5a7;
-  line-height: 1;
+  background: #e2d2c3;
+  vertical-align: 50%;
+ }
+
+.session_14a .answerBorder {
+  float: none;
+  margin-left: 9px;
 }
-
-
 
 /*Exercise_1*/
 ul#breeds {
@@ -72,13 +102,11 @@ ul#breeds {
   margin-left: 20px;
 } 
 
-#functions_lab {
-  font-size: 75%;
-}
+
 
 /*Ex 4*/
 
 .ex_4 {
   display: block;
-  width: 33%;
+  
 }

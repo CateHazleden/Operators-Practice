@@ -1,202 +1,333 @@
 <!DOCTYPE html>
-
+<html>
 <head>
+
 <title>Operators practice</title>
 
 <link rel="stylesheet" href="operators.css">
 
-
 </head>
-<html>
-<div class="ex 2">
-    
 
-    <label>Exercise 1 Modulus Count</label>
-    
 
-        <ul id="breeds">
-            <li>Abyssinian</li>
-            <li>Bombay</li>
-            <li>Chartreux</li>
-            <li>Devon Rex</li>
-            <li>Himalayan</li>
-        </ul>
-    </div>
-</div>
+<div class="mainwrapper">
+    <div class="ex_2">
+        
 
-<br><br><br> 
-
-<div class="ex_3">
-
-    <form name="catTypes" validateForm() method="post">
-        <label for="cname">Cat's name</label>
+        <label>Exercise 1 Modulus Count</label>
+        
+        <button onclick="breedFunction()">How Many Breeds Needed for Group</button>
         <br>
-        <input type="text" id="cname" name="catName" placeholder="Pickle">
-        <br>
-        <label for="breed">Breed</label>
-        <br>
-        <input type="text" id="breed" name="breed" placeholder="Domestic Shorthair">
-        <br>
-        <input type="submit" value="Submit">
-        <input type="reset">
-    </form>
-    <br>
-    <p id="paraMessage"></p> 
-</div>
 
-<br>
-<br>
+            <ul id="breeds">
+                <li>Abyssinian</li>
+                <li>Bombay</li>
+                <li>Chartreux</li>
+                <li>Devon Rex</li>
+                <li>Himalayan</li>
+            </ul>
 
-<div class="ex_4">
-
-    <label>Exercise 4 Ternary Operators</label>
-
-    <div class="border">
-        <p id="messageEx4"></p>
-    </div>
-</div>
-
-<br>
-<br>
-
-<div class="SESSION_13">
-
-    <label>Session 13 Member Demo Information</label>
-    <br>
-    
-    <input type="number" id="demoVal">
-
-    <button onclick="checkMessage()">Submit Age</button>
-    <br>
-    
-
-    <p id="memberMessage"></p>
-
-</div>
-
-<br>
-<br>
-
-<div class="SESSION_14a">
-
-
-    <label>Session 14a Switch Case Cat Greetings</label>
-    <br>
-
-    <input type="text" id="sessionFourteena" placeholder="Breed Type Here">
-    <br>
-
-    <button onclick="catGreetings()">Submit</button>
-    <br>
-
-
-    <p id="messagePara"></p>
-</div>
-
-<br>
-<br>
-
-<div class="SESSION_14b">
-
-    <label>Session 14b Switch Case Demographic Message</label>
-    <br>
-
-    <input type="text" id="ageVal" placeholder="Enter Age"> 
-
-    <button onclick="checkMessage()">Submit Age</button> 
-    <input type="reset">
-    <br>
-    <div class="border">
-        <p id="demoPara"></p>
-    </div>
-
-</div>
-<br>
-<br>
-<div class="Session_14c">
-    <label>Session 14c Loop Exercise</label>
-    <br>
-    <div class="border">
-        <p>Look in the console log ;)</p>
-    </div>
-</div>
-
-<br> 
-<br>
-
-<div class="Session_14d">
-
-    <label>Session 14d Functions</label>
-    <br>
-
-    <label>Number 1</label>
-    <input type="number" id="num1">
-
-    <br>
-
-    <label>Number 2</label>
-    <input type="number" id="num2">
-
-    <br>
-
-    <button id=btn onclick="addVal()">Add Numbers</button>
-
-    <br>
-
-    <div class="border">
-        <p id="numMessage"></p>
-        <p id="secretMess"></p>
-    </div>
-
-</div>
-<br><br>
-
-<div class="Session_15a"></div>
-
-    <label>Session 15a Functions</label>
-
-    <br>
-
-    <div class="border";>
-        <p>Introductions to Functions Lab</p>
-        <p id="functions_lab">can't perform test as npm install won't complete   phase-0-pac-3-intro-to-functions-lab</p>
-    </div>
-
-    <br>
-
-    <div class="border";>
-        <p>The global function (myFunction) returns the product of the arguments (a ,b):
             <div class="answerBorder">
-                <p id="returner"></p>
+                <p id="modulus"></p>
             </div>
-        </p>
+        
+    </div>
+
+    <br><br><br> 
+
+    <div class="ex_3">
+
+        <form name="catTypes" validateForm() method="post">
+            <label for="cname">Cat's name</label>
+    <br>
+            <input type="text" id="cname" name="catName" placeholder="Pickle">
+    <br>
+            <label for="breed">Breed</label>
+    <br>
+            <input type="text" id="breed" name="breed" placeholder="Domestic Shorthair">
+    <br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+    <br>
+        <p id="paraMessage"></p> 
     </div>
 
     <br>
+    <br>
 
-    <div class="border";>
-        <p>Return the product of the arguments (greeting , firstName):
-        </p>
+    <div class="ex_4">
 
-        <div class="answerBorder">
-            <p id="returnGN"></p>
+        <label>Exercise 4 Ternary Operators</label>
+
+        <div class="border">
+            <p id="messageEx4"></p>
         </div>
 
     </div>
-</div>
-    <br><br><br>
 
-<div class="session_16">
+    <br>
+    <br>
 
-    <label>Session 16 Arrays</label>
+    <div class="session_13">
 
-    <button onclick="cars">My Favourite Cars</button>
+        <label>Session 13 Member Demo Information</label>
+    <br>
+        
+        <input type="number" id="demoVal">
 
-    <h3>Pop</h3>
-    <div class="border";>
+        <button onclick="checkMessage()">Submit Age</button>
+    <br>
+        
+
+        <p id="memberMessage"></p>
 
     </div>
 
+    <br>
+    <br>
+
+    <div class="session_14a">
+
+
+        <label>Session 14a Switch Case Cat Greetings</label>
+    <br>
+
+        <input type="text" id="sessionFourteena" placeholder="Breed Type Here">
+    <br>
+
+        <button onclick="catGreetings()">Submit</button>
+    <br>
+    <br>
+
+        <div class="answerBorder">
+            <p id="messagePara"></p>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="session_14b">
+
+        <label>Session 14b Switch Case Demographic Message</label>
+    <br>
+
+        <input type="text" id="ageVal" placeholder="Enter Age"> 
+
+        <button onclick="checkMessage()">Submit Age</button> 
+        <input type="button" onclick="demoReset()" value="Reset form">
+    <br>
+        <div class="border">
+            <p id="demoPara"></p>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="session_14c">
+        <label>Session 14c Loop Exercise</label>
+    <br>
+        <div class="border">
+            <p>Look in the console log ;)</p>
+        </div>
+    </div>
+
+    <br> 
+    <br>
+
+    <div class="session_14d">
+
+        <label>Session 14d Functions</label>
+    <br>
+
+        <label>Number 1</label>
+        <input type="number" id="num1">
+
+    <br>
+
+        <label>Number 2</label>
+        <input type="number" id="num2">
+
+    <br>
+
+        <button id="btn" onclick="addVal()">Add Numbers</button>
+
+    <br>
+        <div id="hideme">
+            <div class="border">
+                <p id="numMessage"></p>
+                <p id="secretMess"></p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+     <div class="session_15a">
+
+        <label>Session 15a Functions</label>
+
+        <button onclick="changeBGandFont()">Change BG and Font</button>
+
+    <br>
+
+        <div class="border">
+            <p>Introductions to Functions Lab</p>
+            <p id="functions_lab">can't perform test as npm install won't complete   phase-0-pac-3-intro-to-functions-lab</p>
+        </div>
+
+    <br>
+
+        <div class="border">
+            <p>The global function (myFunction) returns the product of the arguments (a, b):
+                <div class="answerBorder">
+                    <p id="returner"></p>
+                </div>
+                
+            </p>
+        </div>
+
+    <br>
+
+        <div class="border">
+            <p>Return the product of the arguments (greeting , firstName):
+           
+
+                <div class="answerBorder">
+                    <p id="returnGN"></p>
+                </div>          
+            </p>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="session_15b">
+
+        <label>Session 15b: arrays push pop shift</label>
+
+        <button id="cB1">My Favourite Cars</button>
+        <!--set up click event in JS for loop-->
+
+        <h3>Push</h3>
+
+        <div class="border">
+            <p id=pushEx></p>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    
+    <div class="session_16a">
+
+            <label>Session 16a push, unshift, spread</label>
+
+
+            
+            <button onclick="carsButton2"> My Favourite Cars</button>
+            <!--set up click event in JS for loop-->
+
+    <br>  
+
+            <h3>Spread 1: copy of array with spread</h3>
+
+            <div class="border";>
+                <p id="carsPara"></p>
+            </div>  
+
+            <h3>Spread 2: objects added to array</h3>
+
+            <div class="border";>
+                <p id="carsPara2"></p>
+            </div> 
+
+    <br>
+
+            <h3>Pop</h3>
+            <div class="border";>
+                <button id="pop">Pop</button>
+                <p id="popPara"></p>
+            </div>
+
+    </div>
+    <br>
+    <br>
+
+    <div class="session_18">
+
+        <label>Session 18</label>
+
+        <div class="border";>
+            <p id="catArray"></p>
+        </div>
+
+    <br>
+
+        
+
+            <button id="redbtn" onclick="changeBG0()" >Change to red</button>
+    <br>
+            <button id="pinkbtn" onclick="changeBG1()";>Change to pink</button>
+    <br>
+            <button id="beigebtn" onclick="changeBG2()";>Change to beige</button>
+
+    <br>
+    <br>
+    </div>
+
+    <div class="session_19">
+        <label>Session 19 - DOM</label>
+
+        <br>
+        <br>
+
+        <input type="text" id="colorInput" placeholder="Enter Colour">
+
+        <br>
+        <br>
+
+        <button onclick="changeFontColor()">Change Colour</button>
+        
+        <br>
+
+        <p>Cupcake ipsum dolor sit amet caramels. I love toffee marzipan fruitcake bear claw carrot cake marshmallow lemon drops. Lemon drops chocolate topping pudding icing pastry. Dragée cake macaroon cake cookie cake. Chocolate cake topping jelly beans pie donut. Chocolate cake danish biscuit muffin I love chocolate soufflé. Donut jelly cookie liquorice gummi bears dragée candy bear claw shortbread. Sweet roll cake sweet jujubes dragée. Lollipop I love chocolate bar cake toffee chocolate cake I love caramels fruitcake. Biscuit wafer powder pie sesame snaps carrot cake I love tootsie roll carrot cake.</p>
+
+        <p>Oat cake jelly-o candy chocolate jelly beans sesame snaps. Topping bear claw cheesecake gummies chocolate bar I love. Chocolate cake bonbon lemon drops marshmallow I love cotton candy cake donut. Wafer caramels I love apple pie pie candy canes fruitcake. Cotton candy I love cupcake chupa chups biscuit apple pie topping candy. Fruitcake croissant toffee cupcake oat cake. Donut cupcake bear claw gummies I love apple pie chupa chups candy macaroon. Muffin I love macaroon marzipan toffee muffin bear claw apple pie topping. I love pastry danish apple pie croissant.</p>
+        
+        <p>Pudding jelly beans I love gingerbread muffin carrot cake. 
+        Chocolate cupcake bonbon bonbon I love candy canes gummies carrot cake apple pie. Ice cream liquorice pudding jelly beans tart bear claw cotton candy carrot cake danish. Gummies shortbread I love chupa chups sweet donut. Jelly-o cupcake danish donut I love cake I love. Chupa chups chocolate cake cupcake shortbread chocolate bar I love gingerbread ice cream liquorice. Cupcake wafer jelly carrot cake jelly-o. Candy canes oat cake jelly-o icing lemon drops. Cupcake cupcake donut cake I love icing.</p>
+
+        <p>Gummies brownie sugar plum pie sugar plum. Tootsie roll pudding sesame snaps chocolate cake I love tootsie roll tart toffee. Cupcake pie sweet croissant danish liquorice liquorice chocolate sweet. I love sweet roll biscuit bonbon sweet sweet roll donut caramels caramels. Shortbread soufflé gummi bears liquorice carrot cake. Wafer I love cheesecake brownie bonbon tootsie roll. Caramels chocolate bar candy canes muffin dessert gummi bears cookie soufflé lollipop. Dessert halvah soufflé cake jujubes. Dessert marshmallow bear claw caramels I love.</p>
+
+        <p>Ice cream donut candy chocolate bar chocolate I love. Cake macaroon lemon drops caramels I love bonbon. Dessert jelly beans halvah tiramisu jelly-o bear claw caramels gingerbread muffin. Oat cake powder jelly-o tiramisu gummi bears chupa chups. Danish toffee toffee jelly-o I love cake bear claw pastry. Cheesecake I love shortbread tiramisu lollipop wafer caramels. Candy canes halvah pie chocolate bar candy canes I love tart toffee donut.</p>
+
+    </div>
+
+    <div class="session_21">
+
+        
+
+        <ul>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ul>
+
+        <ol>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ol>
+
+    </div>
 </div>
 <script src="operators.js"></script>
 </html>
