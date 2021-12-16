@@ -110,3 +110,19 @@ ul#breeds {
   display: block;
   
 }
+
+/*Last session*/
+
+.paraStyle {
+  color: red;
+}
+
+.paraStyles {
+  font-family: cursive;
+  color: blueviolet;
+}
+
+.paraStylesNew {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #e45356;
+}

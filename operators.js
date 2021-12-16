@@ -578,3 +578,46 @@ for (let i = 0; i < classItems2.length; i++){
 
 };
 
+
+
+function changeFontColor() {
+
+    let classNames = document.getElementsByClassName('paraStyles');
+  
+  
+    for (let i = 0; i < classNames.length; i++) {
+      classNames[i].style.backgroundColor= "red";
+    }
+  }
+
+  function addClass(){
+
+    let classNames = document.getElementsByClassName('paraStyles');
+  
+  
+    for (let i = 0; i < classNames.length; i++) {
+      classNames[i].classList.add("paraStylesNew");
+    }
+  
+  }
+  
+  
+  function removeClass(){
+  
+    let classNames = document.getElementsByClassName('paraStyles');
+  
+  
+    for (let i = 0; i < classNames.length; i++) {
+      classNames[i].classList.remove("paraStylesNew");
+    }
+  
+  }
+
+  //Asynch example
+
+  /*fetch('https://anapioficeandfire.com/api/books')
+  .then(resp => resp.json())
+  .then(json => console.log(json));*/
+
+  setTimeout(() => console.log('Hello World!'), 2000);
+    console.log("No, me first");
